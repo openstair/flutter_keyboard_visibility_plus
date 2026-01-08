@@ -1,4 +1,4 @@
-package com.jrai.flutter_keyboard_visibility_example.example
+package dev.medhalabs.flutter_keyboard_visibility_plus_example.example
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_keyboard_visibility_platform_interface/flutter_keyboard_visibility_platform_interface.dart';
+import 'package:flutter_keyboard_visibility_plus_platform_interface/flutter_keyboard_visibility_plus_platform_interface.dart';
 
 /// Provides access to the current keyboard visibility state and emits
 /// changes as they happen. For internal use only.

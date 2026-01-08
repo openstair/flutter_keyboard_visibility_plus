@@ -1,4 +1,4 @@
-package com.jrai.flutter_keyboard_visibility;
+package dev.medhalabs.flutter_keyboard_visibility_plus;
 
 import android.app.Activity;
 import android.graphics.Rect;
@@ -14,7 +14,7 @@ import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.PluginRegistry;
 
 
-public class FlutterKeyboardVisibilityPlugin implements FlutterPlugin, ActivityAware, EventChannel.StreamHandler, ViewTreeObserver.OnGlobalLayoutListener {
+public class FlutterKeyboardVisibilityPlusPlugin implements FlutterPlugin, ActivityAware, EventChannel.StreamHandler, ViewTreeObserver.OnGlobalLayoutListener {
   private EventChannel.EventSink eventSink;
   private View mainView;
   private boolean isVisible;
@@ -25,7 +25,7 @@ public class FlutterKeyboardVisibilityPlugin implements FlutterPlugin, ActivityA
   }
 
   private void init(BinaryMessenger messenger) {
-    final EventChannel eventChannel = new EventChannel(messenger, "flutter_keyboard_visibility");
+    final EventChannel eventChannel = new EventChannel(messenger, "flutter_keyboard_visibility_plus");
     eventChannel.setStreamHandler(this);
   }
 

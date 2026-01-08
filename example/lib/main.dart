@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
-import 'package:flutter_keyboard_visibility_example/keyboard_dismiss_demo.dart';
-import 'package:flutter_keyboard_visibility_example/provider_demo.dart';
+import 'package:flutter_keyboard_visibility_plus/flutter_keyboard_visibility_plus.dart';
+import 'package:flutter_keyboard_visibility_plus_example/keyboard_dismiss_demo.dart';
+import 'package:flutter_keyboard_visibility_plus_example/provider_demo.dart';
 
 void main() {
   runApp(App());
@@ -12,9 +12,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Demo(),
-    );
+    return MaterialApp(home: Demo());
   }
 }
 
@@ -23,9 +21,7 @@ class Demo extends StatelessWidget {
   Widget build(BuildContext context) {
     return KeyboardDismissOnTap(
       child: Scaffold(
-        appBar: AppBar(
-          title: Text('Keyboard Visibility Example'),
-        ),
+        appBar: AppBar(title: Text('Keyboard Visibility Example')),
         body: Center(
           child: Padding(
             padding: EdgeInsets.all(24.0),
@@ -46,7 +42,8 @@ class Demo extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => KeyboardDismissDemo()),
+                        builder: (context) => KeyboardDismissDemo(),
+                      ),
                     );
                   },
                   child: Text('KeyboardDismiss Demo'),
@@ -59,11 +56,13 @@ class Demo extends StatelessWidget {
                   ),
                 ),
                 Container(height: 60.0),
-                KeyboardVisibilityBuilder(builder: (context, visible) {
-                  return Text(
-                    'The keyboard is: ${visible ? 'VISIBLE' : 'NOT VISIBLE'}',
-                  );
-                }),
+                KeyboardVisibilityBuilder(
+                  builder: (context, visible) {
+                    return Text(
+                      'The keyboard is: ${visible ? 'VISIBLE' : 'NOT VISIBLE'}',
+                    );
+                  },
+                ),
                 Spacer(),
               ],
             ),
