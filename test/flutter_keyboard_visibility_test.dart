@@ -6,7 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
-import 'flutter_keyboard_visibility_plus_test.mocks.dart';
+import 'flutter_keyboard_visibility_test.mocks.dart';
 
 @GenerateMocks([KeyboardVisibilityController])
 void main() {
