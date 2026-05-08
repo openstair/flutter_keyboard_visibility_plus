@@ -11,4 +11,4 @@ PRODUCT_NAME = flutter_keyboard_visibility_plus_example
 PRODUCT_BUNDLE_IDENTIFIER = com.jrai.flutterkeyboardvisibilityexample.flutterKeyboardVisibilityExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 dev.medhalabs.flutter_keyboard_visibility_plus_example. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 in.openstair.flutter_keyboard_visibility_plus_example. All rights reserved.

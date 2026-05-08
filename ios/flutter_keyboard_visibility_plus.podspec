@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Flutter keyboard visibility
                        DESC
-  s.homepage         = 'https://github.com/medha-labs/flutter_keyboard_visibility_plus'
+  s.homepage         = 'https://github.com/openstair/flutter_keyboard_visibility_plus'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Jason Rai' => 'jason.c.rai@gmail.com' }
+  s.author           = { 'Jason Rai' => 'hello@openstair.in' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

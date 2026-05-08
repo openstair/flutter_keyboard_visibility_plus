@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="dev.medhalabs.flutter_keyboard_visibility_plus">
+  package="in.openstair.flutter_keyboard_visibility_plus">
 </manifest>

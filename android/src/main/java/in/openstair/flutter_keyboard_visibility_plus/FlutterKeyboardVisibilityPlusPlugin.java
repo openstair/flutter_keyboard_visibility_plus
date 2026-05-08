@@ -1,4 +1,4 @@
-package dev.medhalabs.flutter_keyboard_visibility_plus;
+package in.openstair.flutter_keyboard_visibility_plus;
 
 import android.app.Activity;
 import android.graphics.Rect;
